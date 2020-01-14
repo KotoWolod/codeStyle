@@ -64,7 +64,7 @@ We make our code in the OOP paradigm and do it as stateful, not stateless. If we
     - U	Undocumented: Never document requirements, architecture, design, classes, or methods
     - I	Illegible: Keep code as illegible as possible by not following consistent coding standards
     - D	Duplicate code: Copy and paste similar functionality as-needed, and don’t worry about DRY coding
-# JavaScript Style Guide
+# JavaScript Style Guide based on AirBnb
 
 ## Table of Contents
 
