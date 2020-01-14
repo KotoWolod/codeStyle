@@ -6,7 +6,7 @@ We make our code in the OOP paradigm and do it as stateful, not stateless. If we
 
 - ### Small is beautiful. 
     >This means that the code should be small and have many shorthands. But this shorthands mustn't breaking down readability. Keep a balance between shorthand and readability.
-- ###SOC – Separation of Concerns 
+- ### SOC – Separation of Concerns 
     > This means that each class should perform only one action, the validator should only check, the requestor should only make requests. Do not mix, for example, a requestor with a validator in one class. Rule of thumb: If we can divide one thing into several other smaller things it is no longer considered a one thing.
 - ### Easier to understand and use 
     > A developer makes code for other developers, not for a show or video stream. This means that the code should be easy to use. Make your code in Tdd style. The Tdd test is like a part of the documentation for other developers. Make your names readable, don't use obscure abbreviations.
