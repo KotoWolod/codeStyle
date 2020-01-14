@@ -4,7 +4,7 @@
 
 We make our code in the OOP paradigm and do it as stateful, not stateless. If we need a little functionality we create a class for it, not a function.
 
-- ### Small is beautiful. 
+- ### Small is beautiful.
     >This means that the code should be small and have many shorthands. But this shorthands mustn't breaking down readability. Keep a balance between shorthand and readability.
 - ### SOC – Separation of Concerns 
     > This means that each class should perform only one action, the validator should only check, the requestor should only make requests. Do not mix, for example, a requestor with a validator in one class. Rule of thumb: If we can divide one thing into several other smaller things it is no longer considered a one thing.
