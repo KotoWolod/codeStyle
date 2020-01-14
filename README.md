@@ -1,22 +1,24 @@
 # Code convention
+
 ### The main goal is to create reusable and readable code!
+
 We make our code in the OOP paradigm and do it as stateful, not stateless. If we need a little functionality we create a class for it, not a function.
 
-- ###Small is beautiful.
+- ### Small is beautiful. 
     >This means that the code should be small and have many shorthands. But this shorthands mustn't breaking down readability. Keep a balance between shorthand and readability.
-- ###SOC – Separation of Concerns
+- ###SOC – Separation of Concerns 
     > This means that each class should perform only one action, the validator should only check, the requestor should only make requests. Do not mix, for example, a requestor with a validator in one class. Rule of thumb: If we can divide one thing into several other smaller things it is no longer considered a one thing.
-- ###Easier to understand and use
+- ### Easier to understand and use 
     > A developer makes code for other developers, not for a show or video stream. This means that the code should be easy to use. Make your code in Tdd style. The Tdd test is like a part of the documentation for other developers. Make your names readable, don't use obscure abbreviations.
-- ###Simpler to test and maintain. SLAP your code!
+- ### Simpler to test and maintain. SLAP your code! 
     > The development process lasts only 10-20% of the time; the rest of the time, developers look for errors and make improvements. In this case, you should prepare the code for debuggers and for quick understanding. You need to make a lot of aliases, hide unimportant details under the hood. At the top level, code should be readable first. Single Level of Abstraction Principle (SLAP) dictates the way you should organize your code (functions to be specific) to keep it maintainable.
-- ###Don't repeat yourself (DRY)
+- ### Don't repeat yourself (DRY) 
     > If your code has duplicate, it means that your code design is broken. You must use a factory or make an abstraction.                                                                                                          
-- ###Keep it simple, stupid (KISS)
+- ### Keep it simple, stupid (KISS) 
     > Don't do over engineering, don't use complicated algorithms if they are not needed.
-- ###You aren't gonna need it (YAGNI)
+- ### You aren't gonna need it (YAGNI) 
     > Doing your job well means remembering about feature enhancements, but don’t do what you’re not sure about, and only do so for the future.
-- ### Always follow to SOLID Principles
+- ### Always follow to SOLID Principles 
      - Single-responsibility Principle
      - Open-closed Principle
      - Liskov substitution principle
@@ -28,7 +30,8 @@ We make our code in the OOP paradigm and do it as stateful, not stateless. If we
     ```javascript
     I.want.to.tell.you.a.story({story});
     ```
-#Useful tips                                                                                                                                                                
+
+# Useful tips                                                                                                                                                                
 
 - ### Encapsulate What Changes
     > The benefit of this OOP Design principle is that It’s easy to test and maintain proper encapsulated code.
@@ -1516,7 +1519,7 @@ We make our code in the OOP paradigm and do it as stateful, not stateless. If we
     > Why? This enforces our immutable rule. Dealing with pure functions that return values is easier to reason about than side effects.], but this doesn't work with promises.
 
     ```javascript
-    // bad, don't work
+    // bad, doesn't work
         promiseArray.forEach(async (promise) => await promise.catch(console.error))
     
     // good
